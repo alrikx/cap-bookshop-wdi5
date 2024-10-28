@@ -12,7 +12,7 @@ module.exports = {
                                 }
                         }
                 }).enterText(sbook);
-        }
+        },
 
         iSelectGenre: async () => {
                 await browser.asControl({
@@ -31,7 +31,7 @@ module.exports = {
                         }
                 }).press();
 
-        }
+        },
 
         iSelectAuthor: async () => {
                 await browser.asControl({
@@ -49,7 +49,7 @@ module.exports = {
                                 }
                         }
                 }).press();
-        }
+        },
 
         iPressCreate: async () => {
                 await browser.asControl({
@@ -60,7 +60,7 @@ module.exports = {
                                 }
                         }
                 }).press();
-        }
+        },
 
 
         iNavigateBack: async () => {
@@ -68,7 +68,7 @@ module.exports = {
                         selector: {
                         id: "backBtn"
                 }}).press();
-            }
+            },
 
         /**
          * define assertions for the page object

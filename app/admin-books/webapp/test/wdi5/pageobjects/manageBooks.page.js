@@ -14,13 +14,13 @@ module.exports = {
                     idSuffix: "BDI-content"
             }
     }}).press();
-}
+},
 
   /**
    * define assertions for the page object
    */
 
-  theBookListContains: async (sBook) => {
+theBookListContains: async (sBook) => {
     const text = await browser.asControl({
     	selector: {
             controlType: "sap.m.Text",
